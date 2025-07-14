@@ -41,6 +41,9 @@ It compares both **schema and data** across tables and generates a detailed **HT
 
 ---
 
+## Command to Generate .exe
+` pyinstaller --name=DbCompareTool main.py --add-data "templates/report_template.html;templates" --add-data ".env;." `
+
 ## 📦 Requirements
 
 Install required Python libraries:
@@ -56,7 +59,7 @@ pip install pandas pyodbc jinja2
 Run the app:
 
 ```bash
-python db_mirror.py
+python main.py
 ```
 
 ---
@@ -92,6 +95,6 @@ Pull requests and feedback are welcome!
 ## 👨‍💻 Author
 
 **Muhammad Amman**  
-[Your GitHub or Website link]
+ammansoomro.com
 
 ---
