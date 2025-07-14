@@ -202,7 +202,7 @@ class CompareTab:
         options_frame.pack(fill=tk.X, pady=(0, 15))
         
         # Data comparison checkbox with better layout
-        self.compare_data_var = tk.BooleanVar(value=False)
+        self.compare_data_var = tk.BooleanVar(value=True)
         ttk.Checkbutton(options_frame, 
                        text="Compare table data (enable for detailed comparison)",
                        variable=self.compare_data_var,
