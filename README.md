@@ -42,7 +42,9 @@ It compares both **schema and data** across tables and generates a detailed **HT
 ---
 
 ## Command to Generate .exe
-` pyinstaller --name=DbCompareTool main.py --add-data "templates/report_template.html;templates" --add-data ".env;." `
+```bash
+pyinstaller --name=DbCompareTool main.py --add-data "templates/report_template.html;templates" --add-data ".env;."
+```
 
 ## 📦 Requirements
 
